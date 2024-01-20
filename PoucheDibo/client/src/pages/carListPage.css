@@ -1,0 +1,98 @@
+span{
+    margin-left:30px;
+}    
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+    /* Style for the card container */
+    .card {
+      /* margin-top: 100px; */
+      width: 800px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      overflow: hidden;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      margin: 0 auto;
+      margin-top: 20px;
+   
+    }
+
+    /* Style for the upper part (Google Map) */
+    .upper-part {
+        
+      height: 400px;
+      background-color: #f0f0f0;
+    }
+
+    /* Style for the lower part (Car list) */
+    .lower-part {
+      padding: 10px;
+      display: flex;
+    }
+
+    /* Style for the car list */
+    .car-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      
+    }
+
+    /* Style for individual car items */
+    .car-item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+      
+    }
+
+    /* Style for car image */
+    .car-image {
+      width: 100px;
+      height: auto;
+      margin-right: 10px;
+      border-radius: 5px;
+    }
+
+    span{
+ font-family: Roboto, sans-serif; /* Example font family */
+  font-size: 10px; /* Example font size */
+  color: rgb(255, 0, 187); 
+  font-weight: 900;
+ 
+  /* Example border color */
+  /* Example text color */
+  /* Add more styling as needed */
+    }
+
+    .BookNowbutton a{
+      text-decoration: none;
+      color: white;
+     }
+   .BookNowbutton{
+      background-color: #a74caf; /* Green */
+      border: none;
+      color: white;
+      padding: 8px 10px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 10px;
+      margin-left: 500px ;
+      cursor: pointer;
+      border-radius: 5px;
+   }
